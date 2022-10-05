@@ -9,9 +9,11 @@ Please log in the username and password that have been provided to you.
 *TODO: change to permanent name when available: https://chemistry.sparrow.cf.ac.uk*
 *TODO: SCW usernames will be accessible when issue with LDAP integration is resolved.*
 
-When you log into the service for the first time it will take a few minutes for the system to set up your user environment, please be patient.
+When you log into the service for the first time it will take a few minutes for the system to set up your user environment, please be patient if it is waiting at the message "Started container notebook".
 
-You can access your JupyterLab environment from multiple locations
+TODO: You can access your JupyterLab environment from multiple locations, can use workspaces for different views
+TODO: How to shut down
+TODO: timeout of 1 week
 
 ## Storage
 Your home directory in the JupyerLab is provided by the Ceph storage on the Sparrow system
