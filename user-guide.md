@@ -2,11 +2,14 @@
 
 ## Accessing the system
 
-You must either be logged into the VPN or on the 
+You must either be logged into the VPN or on the campus network to access the service.
 The service is available at
-https://
+https://chemy-hub.sparrow.cf.ac.uk
 Please log in the username and password that have been provided to you.
-*TODO: change to permanent name when available: https://chemistry.sparrow.cf.ac.uk*
+
+## Registering account
+*TODO: Insert process for registering account*
+
 *TODO: SCW usernames will be accessible when issue with LDAP integration is resolved.*
 
 When you log into the service for the first time it will take a few minutes for the system to set up your user environment, please be patient if it is waiting at the message "Started container notebook".
@@ -17,8 +20,6 @@ TODO: timeout of 1 week
 
 ## Storage
 Your home directory in the JupyerLab is provided by the Ceph storage on the Sparrow system
-You can upload files from your local machine using the 
-Internet access is  
 
 ## Conda environments
 
