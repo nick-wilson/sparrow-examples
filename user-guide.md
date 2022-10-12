@@ -5,17 +5,20 @@
 You must either be logged into the VPN or on the campus network to access the service.
 The service is available at
 https://chemy-hub.sparrow.cf.ac.uk
-Please log in the username and password that have been provided to you.
 
 ## Registering account
-*TODO: Insert process for registering account*
 
-*TODO: SCW usernames will be accessible when issue with LDAP integration is resolved.*
+ - Click on the "Sign up to create a new user" link
+ - Register with same SCW username as used on Hawk and other ARCCA machines
+ - After registering for account please email admins with the the username you have used so they can verify and track registration
+ - Once account has been authorized by the admins then you will be able to log into the service
+
+*TODO: Process with LDAP integration is resolved.*
 
 When you log into the service for the first time it will take a few minutes for the system to set up your user environment, please be patient if it is waiting at the message "Started container notebook".
 
 TODO: You can access your JupyterLab environment from multiple locations, can use workspaces for different views
-TODO: How to shut down
+TODO: How to shut down notebook
 TODO: timeout of 1 week
 
 ## Storage
