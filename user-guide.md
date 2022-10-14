@@ -1,16 +1,15 @@
 # JupterLab Service on Sparrow
 
 ## Accessing the system
-
 You must either be logged into the VPN or on the campus network to access the service.
-The service is available at
-https://chemy-hub.sparrow.cf.ac.uk
+The service is available at https://chemy-hub.sparrow.cf.ac.uk
 
 ## Registering account
+You currently need a separate account from your normal ARCCA/SCW account to use this service. The procedure to set up an account is as follows:
 
  - Click on the "Sign up to create a new user" link
  - Register with same SCW username as used on Hawk and other ARCCA machines
- - After registering for account please email admins with the the username you have used so they can verify and track registration
+ - After registering for account please email the admins with the the username you have specified so they can verify and track registration
  - Once account has been authorized by the admins then you will be able to log into the service
 
 When you log into the service for the first time it will take a few minutes for the system to set up your user environment, please be patient if it is waiting at the message "Started container notebook".
@@ -44,14 +43,16 @@ The `clean` environment is a clean default Anaconda environment which can be use
 
 ### Creating additional Anaconda environments 
 
-## Access to hawk
-An ssh key is generated for each user on first login
+## Access to the Hawk cluster
+An ssh key is automatically generated for each user on first login. Instructions for how to add this key to your ssh authorized_keys file to allow you passwordless access to the Hawk cluster can be found in the following notebook:
 
 https://github.com/nick-wilson/sparrow-examples/blob/master/ssh-copy-id.ipynb
 
 ## pysjef & Molpro
 
-## Resetting Anaconda environment to the version shipped in the container image
+## Troubleshooting
+
+### Resetting Anaconda environment to the version shipped in the container image
 If you have broken the `persistent` environment in your user directory and would like to reset it back to the version shipped with the container image then please use the following procedure:
 1. Open a terminal
 2. Run the command `conda-resync`
