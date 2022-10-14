@@ -13,16 +13,17 @@ https://chemy-hub.sparrow.cf.ac.uk
  - After registering for account please email admins with the the username you have used so they can verify and track registration
  - Once account has been authorized by the admins then you will be able to log into the service
 
-*TODO: Process with LDAP integration is resolved.*
-
 When you log into the service for the first time it will take a few minutes for the system to set up your user environment, please be patient if it is waiting at the message "Started container notebook".
 
+<!--
+TODO: Process with LDAP integration is resolved
 TODO: You can access your JupyterLab environment from multiple locations, can use workspaces for different views
 TODO: How to shut down notebook
 TODO: timeout of 1 week
+-->
 
 ## Storage
-Your home directory in the JupyerLab is provided by the Ceph storage on the Sparrow system
+Your home directory in the JupyerLab is provided by the Ceph storage on the Sparrow system.
 
 ## Conda environments
 
@@ -49,6 +50,14 @@ An ssh key is generated for each user on first login
 https://github.com/nick-wilson/sparrow-examples/blob/master/ssh-copy-id.ipynb
 
 ## pysjef & Molpro
+
+## Resetting Anaconda environment to the version shipped in the container image
+If you have broken the `persistent` environment in your user directory and would like to reset it back to the version shipped with the container image then please use the following procedure:
+1. Open a terminal
+2. Run the command `conda-resync`
+3. Once the command is complete restart the JupyterLab server by navigating to https://chemy-hub.sparrow.cf.ac.uk/hub/home and clicking on "Stop My Server" and "Start My Server" (this page is also available by selecting "Hub Control Panel" from the "File" menu)
+
+If a newer version of the container image has been published since you started your current JupterLab server and you would like to update the `persistent` environment in your user directory then you will need to restart the JupyterLab server, run the `conda-resync` command and then restart the Jupyter server again.
 
 ## Further documentation
 https://docs.jupyter.org
