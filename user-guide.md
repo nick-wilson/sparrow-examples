@@ -7,7 +7,7 @@ The service is available at https://chemy-hub.sparrow.cf.ac.uk
 ## Registering account
 You currently need a separate account from your normal ARCCA/SCW account to use this service. The procedure to set up an account is as follows:
 
- - Click on the "Sign up to create a new user" link
+ - Click on the "[Sign up to create a new user](https://chemy-hub.sparrow.cf.ac.uk/hub/signup)" link on the login page
  - Register with same SCW username as used on Hawk and other ARCCA machines
  - After registering for account please email the admins with the the username you have specified so they can verify and track registration
  - Once account has been authorized by the admins then you will be able to log into the service
